@@ -1,0 +1,61 @@
+/* universal CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Secular One', sans-serif;
+    background-color: #905E96;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    font-size: 3rem;
+    text-align: center;
+}
+
+input {
+    margin: 2rem 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-self: center;
+}
+
+input[type=submit] {
+    color: aliceblue;
+    background-color: #905E96;
+    border: 0.15rem solid aliceblue;
+    border-radius: 0.3rem;
+    padding: 0.4rem 6rem 0.4rem;
+    margin-top: 2rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    cursor: pointer;
+
+    position: relative;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+    color: #905E96;
+    box-shadow: inset 8rem 0 0 0 #905E96;
+}
+
+input[type=submit]:hover {
+    box-shadow: inset 25rem 0 0 0 aliceblue;
+}

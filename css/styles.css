@@ -42,7 +42,7 @@ input[type=submit] {
     background-color: #905E96;
     border: 0.15rem solid aliceblue;
     border-radius: 0.3rem;
-    padding: 0.4rem 6rem 0.4rem;
+    padding: 0.4rem 4rem 0.4rem;
     margin-top: 2rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     cursor: pointer;
